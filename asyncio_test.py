@@ -9,12 +9,12 @@ async def main():
     await asyncio.sleep(3)
     print("B")
     await task
-    
-    
+
+
 async def other_function():
-    print("1")    
+    print("1")
     await asyncio.sleep(2)
-    print("2")    
-    
-    
-asyncio.run(main())    
+    print("2")
+
+
+asyncio.run(main())
